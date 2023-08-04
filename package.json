@@ -1,5 +1,18 @@
 {
   "dependencies": {
+    "express": "^4.18.2",
     "moment": "^2.29.4"
-  }
+  },
+  "name": "cs477nodejs",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "set PORT=9999 && set NODE_ENV='development && nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
