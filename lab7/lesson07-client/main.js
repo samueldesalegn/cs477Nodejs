@@ -43,10 +43,10 @@ async function savedBook(evt){
 	const response = await fetch('http://localhost:5000/books', {
 			method: 'POST',
 			body: JSON.stringify({
-					title,
-					ISBN, 
-					publishedDate,
-					author
+					title: document.getElementById('title').value,
+					ISBN: document.getElementById('ISBN').value,
+					publishedDate: document.getElementById('publishedDate').value,
+					author: document.getElementById('author').value
 			}),
 			headers: {
 					'Content-Type': 'application/json'
