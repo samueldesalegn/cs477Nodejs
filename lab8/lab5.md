@@ -1,4 +1,4 @@
-# Lab 5 - REST
+# Lab 8 - REST+mongoose+auth
 1. Download the start-up project lesson05-server and lesson05-client projects
     or you create everything from scrtach.
 2. Run "npm install" under lesson05-server to get express package installed.
