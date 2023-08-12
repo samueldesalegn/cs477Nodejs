@@ -2,6 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const bookRouter = require('./routes/book');
 const authRouter = require('./routes/auth');
+const userRouter = require('./routes/userRoute');
 const cors = require('cors');
 
 
@@ -15,6 +16,11 @@ const port = 5000;
 
 app.use(cors());
 app.use(express.json());
+
+
+app.use('/users', userRouter);
+
+// app.use(authRouter);
 
 
 // Middlewares
